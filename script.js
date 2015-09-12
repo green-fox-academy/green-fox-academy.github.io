@@ -14297,40 +14297,40 @@ var lessons = [{
     message: "Could you make a function that draws a triangle?",
     code: ""
 }, {
-    message: "Now for something completely different.  A star! I like that! Do you like stars too? If you want, you can change some of the numbers and mess it up! Try it!",
-    code: "c.beginPath();\nc.moveTo(50, 100);\nc.lineTo(150, 100);\nc.lineTo(65, 150);\nc.lineTo(100, 60);\nc.lineTo(135, 150);\nc.lineTo(50, 100);\nc.stroke();\n",
+    message: "Now for something completely different.  A fox! I like that! Do you like foxes too? If you want, you can change some of the numbers and mess it up! Try it!",
+    code: "c.beginPath();\nc.moveTo(50, 100);\nc.lineTo(70, 70);\nc.lineTo(80, 90);\nc.lineTo(90, 90);\nc.lineTo(100, 70);\nc.lineTo(120, 100);\nc.lineTo(85, 130);\nc.lineTo(50, 100);\nc.stroke();\n",
     lessonSection: "More Lines",
     tutorImage: 1,
 }, {
-    message: "Wait, stars aren't green.  Can you make it yellow or gold?",
-    code: 'c.strokeStyle = "green";\nc.beginPath();\nc.moveTo(50, 100);\nc.lineTo(150, 100);\nc.lineTo(65, 150);\nc.lineTo(100, 60);\nc.lineTo(135, 150);\nc.lineTo(50, 100);\nc.stroke();\n',
+    message: "Wait, foxes aren't purple. Can you make it green?",
+    code: 'c.strokeStyle = "purple";\nc.beginPath();\nc.moveTo(50, 100);\nc.lineTo(70, 70);\nc.lineTo(80, 90);\nc.lineTo(90, 90);\nc.lineTo(100, 70);\nc.lineTo(120, 100);\nc.lineTo(85, 130);\nc.lineTo(50, 100);\nc.stroke();\n',
     tutorImage: 4,
 }, {
-    message: "A solid gold star! Did you know you can do that? What's different?  How did I make the star solid?",
-    code: 'c.fillStyle = "gold";\nc.beginPath();\nc.moveTo(50, 100);\nc.lineTo(150, 100);\nc.lineTo(65, 150);\nc.lineTo(100, 60);\nc.lineTo(135, 150);\nc.lineTo(50, 100);\nc.fill();\n',
+    message: "A solid green fox! Did you know you can do that? What's different?  How did I make the fox solid?",
+    code: 'c.fillStyle = "limegreen";\nc.beginPath();\nc.moveTo(50, 100);\nc.lineTo(70, 70);\nc.lineTo(80, 90);\nc.lineTo(90, 90);\nc.lineTo(100, 70);\nc.lineTo(120, 100);\nc.lineTo(85, 130);\nc.lineTo(50, 100);\nc.fill();\n',
     tutorImage: 5,
 }, {
     message: "Just like <span class=tutor-code>c.stroke()</span> draws lines in whatever color <span class=tutor-code>c.strokeStyle</span> is set to, <span class=tutor-code>c.fill()</span> fills a shape with whatever color <span class=tutor-code>c.fillStyle</span> is. It's that fun?",
     tutorImage: 2,
 }, {
-    message: "Variables make it easy to change and add more stars. Try changing <span class=tutor-code>x</span>, <span class=tutor-code>y</span>, and <span class=tutor-code>size</span> (or anything else)!",
-    code: 'c.fillStyle = "gold";\n\nvar x = 50;\nvar y = 100;\nvar size = 100;\n\nc.beginPath();\nc.moveTo(x, y);\nc.lineTo(x + size, y);\nc.lineTo(x + size * 0.15, y + size * 0.5);\nc.lineTo(x + size / 2, y - size * 0.4);\nc.lineTo(x + size * 0.85, y + size * 0.5);\nc.lineTo(x, y);\nc.fill();\n',
+    message: "Variables make it easy to change and add more foxes. Try changing <span class=tutor-code>x</span>, <span class=tutor-code>y</span>, and <span class=tutor-code>size</span> (or anything else)!",
+    code: 'c.fillStyle = "limegreen";\n\nvar x = 50;\nvar y = 100;\nvar size = 100;\n\nc.beginPath();\n\nc.moveTo(x, y);\nc.lineTo(x+size/7*2, y-size/7*3);\nc.lineTo(x+size/7*3, y-size/7);\nc.lineTo(x+size/7*4, y-size/7);\nc.lineTo(x+size/7*5, y-size/7*3);\nc.lineTo(x+size, y);\nc.lineTo(x+size/2, y+size/7*3);\nc.lineTo(x, 100);\nc.fill();',
     tutorImage: 1,
 }, {
-    message: "Here are two stars, but look at all that code!  Most of it is the same too, just copied, repeating over and over. That doesn't seem like the best way to do two stars. What can we do?",
-    code: 'c.fillStyle = "gold";\n\nvar x = 50;\nvar y = 100;\nvar size = 100;\n\nc.beginPath();\nc.moveTo(x, y);\nc.lineTo(x + size, y);\nc.lineTo(x + size * 0.15, y + size * 0.5);\nc.lineTo(x + size / 2, y - size * 0.4);\nc.lineTo(x + size * 0.85, y + size * 0.5);\nc.lineTo(x, y);\nc.fill();\nx += 100;\ny += 50;\nc.beginPath();\nc.moveTo(x, y);\nc.lineTo(x + size, y);\nc.lineTo(x + size * 0.15, y + size * 0.5);\nc.lineTo(x + size / 2, y - size * 0.4);\nc.lineTo(x + size * 0.85, y + size * 0.5);\nc.lineTo(x, y);\nc.fill();\n',
+    message: "Here are two foxes, but look at all that code!  Most of it is the same too, just copied, repeating over and over. That doesn't seem like the best way to do two foxes. What can we do?",
+    code: 'c.fillStyle = "limegreen";\n\nvar x = 50;\nvar y = 100;\nvar size = 100;\n\nc.beginPath();\nc.moveTo(x, y);\nc.lineTo(x+size/7*2, y-size/7*3);\nc.lineTo(x+size/7*3, y-size/7);\nc.lineTo(x+size/7*4, y-size/7);\nc.lineTo(x+size/7*5, y-size/7*3);\nc.lineTo(x+size, y);\nc.lineTo(x+size/2, y+size/7*3);\nc.lineTo(x, y);\nc.fill();\n\nx += 100;\ny += 50;\n\nc.beginPath();\nc.moveTo(x, y);\nc.lineTo(x+size/7*2, y-size/7*3);\nc.lineTo(x+size/7*3, y-size/7);\nc.lineTo(x+size/7*4, y-size/7);\nc.lineTo(x+size/7*5, y-size/7*3);\nc.lineTo(x+size, y);\nc.lineTo(x+size/2, y+size/7*3);\nc.lineTo(x, y);\nc.fill();\n',
     tutorImage: 4,
 }, {
-    message: "Functions! It's fillStar()! Can you add a third star?",
-    code: 'c.fillStyle = "gold";\nvar size = 100;\n\nfunction fillStar(x, y, s) {\n  c.beginPath();\n  c.moveTo(x, y);\n  c.lineTo(x + s, y);\n  c.lineTo(x + s * 0.15, y + s * 0.5);\n  c.lineTo(x + s / 2, y - s * 0.4);\n  c.lineTo(x + s * 0.85, y + s * 0.5);\n  c.lineTo(x, y);\n  c.fill();\n}\n\nfillStar(50, 100, size);\nfillStar(150, 150, size);',
+    message: "Functions! It's fillFox()! Can you add a third fox?",
+    code: 'c.fillStyle = "limegreen";\nvar size = 100;\n\nfunction fillFox(x, y, s) {\n  c.beginPath();\n  c.moveTo(x, y);\n  c.lineTo(x+s/7*2, y-s/7*3);\n  c.lineTo(x+s/7*3, y-s/7);\n  c.lineTo(x+s/7*4, y-s/7);\n  c.lineTo(x+s/7*5, y-s/7*3);\n  c.lineTo(x+s, y);\n  c.lineTo(x+s/2, y+s/7*3);\n  c.lineTo(x, y);\n  c.fill();\n}\n\nfillFox(50, 100, size);\nfillFox(150, 150, size);\n    \n',
     lessonSection: "More Functions",
     tutorImage: 5,
 }, {
-    message: "Wow, four stars in a row using functions and for loops!  See how this works?  Can you make it eight stars?",
-    code: 'c.fillStyle = "gold";\nvar size = 40;\n\nfunction fillStar(x, y, s) {\n  c.beginPath();\n  c.moveTo(x, y);\n  c.lineTo(x + s, y);\n  c.lineTo(x + s * 0.15, y + s * 0.5);\n  c.lineTo(x + s / 2, y - s * 0.4);\n  c.lineTo(x + s * 0.85, y + s * 0.5);\n  c.lineTo(x, y);\n  c.fill();\n}\n\nfor (var i = 0; i < 4; i = i + 1) {\n  fillStar(i * size, 50, size);\n}\n',
+    message: "Wow, four foxes in a row using functions and for loops!  See how this works?  Can you make it eight foxes?",
+    code: 'c.fillStyle = "limegreen";\nvar size = 40;\n\nfunction fillFox(x, y, s) {\n  c.beginPath();\n  c.moveTo(x, y);\n  c.lineTo(x+s/7*2, y-s/7*3);\n  c.lineTo(x+s/7*3, y-s/7);\n  c.lineTo(x+s/7*4, y-s/7);\n  c.lineTo(x+s/7*5, y-s/7*3);\n  c.lineTo(x+s, y);\n  c.lineTo(x+s/2, y+s/7*3);\n  c.lineTo(x, y);\n  c.fill();\n}\n\nfor (var i = 0; i < 4; i = i + 1) {\n  fillFox(i * size, 50, size);\n}\n',
 }, {
-    message: "Two loops to make rows of stars!  Try changing <span class=tutor-code>size</span> to make them bigger!",
-    code: 'c.fillStyle = "gold";\nvar size = 40;\n\nfor (var i = 0; i < 5; i = i + 1) {\n  for (var j = 0; j < 3; j = j + 1) {\n    fillStar(i * size, j * size, size);\n  }\n}\n\nfunction fillStar(x, y, s) {\n  c.beginPath();\n  c.moveTo(x, y + s * 0.4);\n  c.lineTo(x + s, y + s * 0.4);\n  c.lineTo(x + s * 0.15, y + s * 0.9);\n  c.lineTo(x + s / 2, y);\n  c.lineTo(x + s * 0.85, y + s * 0.9);\n  c.lineTo(x, y + s * 0.4);\n  c.fill();\n}\n',
+    message: "Two loops to make rows of foxes!  Try changing <span class=tutor-code>size</span> to make them bigger!",
+    code: 'c.fillStyle = "limegreen";\nvar size = 40;\n\nfor (var i = 0; i < 5; i = i + 1) {\n  for (var j = 0; j < 3; j = j + 1) {\n    fillFox(i * size, j * size, size);\n  }\n}\n\nfunction fillFox(x, y, s) {\n  c.beginPath();\n  c.moveTo(x, y+s/7*3);\n  c.lineTo(x+s/7*2, y);\n  c.lineTo(x+s/7*3, y+s/7*2);\n  c.lineTo(x+s/7*4, y+s/7*2);\n  c.lineTo(x+s/7*5, y);\n  c.lineTo(x+s, y+s/7*3);\n  c.lineTo(x+s/2, y+s);\n  c.lineTo(x, y+s/7*3);\n  c.fill();\n}\n',
     lessonSection: "Nested Loops",
     tutorImage: 6,
 }, {
@@ -14340,48 +14340,47 @@ var lessons = [{
     message: "Do you know how it works?",
 }, {
     message: "Look at the inner loop.  <span class=tutor-code>j</span> will count 0, 1, 2.  The first time <span class=tutor-code>j</span> counts 0, 1, 2, <span class=tutor-code>i</span> will be 0.  The next time j counts 0, 1, 2, i will be 1.",
-    code: 'c.fillStyle = "gold";\nvar size = 40;\n\nfor (var i = 0; i < 5; i = i + 1) {\n  for (var j = 0; j < 3; j = j + 1) {\n    fillStar(i * size, j * size, size);\n  }\n}\n\nfunction fillStar(x, y, s) {\n  c.beginPath();\n  c.moveTo(x, y + s * 0.4);\n  c.lineTo(x + s, y + s * 0.4);\n  c.lineTo(x + s * 0.15, y + s * 0.9);\n  c.lineTo(x + s / 2, y);\n  c.lineTo(x + s * 0.85, y + s * 0.9);\n  c.lineTo(x, y + s * 0.4);\n  c.fill();\n}\n',
     tutorImage: 1,
 }, {
-    message: "So, for the first star, i = 0 and j = 0.  On the second star, i = 0 and j = 1.  Third, i = 0 and j = 2. Then, i = 1 and j = 0, i = 1 and j = 1, i = 1 and j = 2, and so on.",
+    message: "So, for the first fox, i = 0 and j = 0.  On the second fox, i = 0 and j = 1.  Third, i = 0 and j = 2. Then, i = 1 and j = 0, i = 1 and j = 1, i = 1 and j = 2, and so on.",
 }, {
-    message: "Can you figure out what order it draws the stars?  Which star is drawn first?  Which star is the second star drawn?",
+    message: "Can you figure out what order it draws the foxes?  Which fox is drawn first?  Which fox is the second fox drawn?",
     tutorImage: 4,
 }, {
-    message: "The first star will be the one at the top left.  The second drawn is the one below it.  Do you see why?",
+    message: "The first fox will be the one at the top left.  The second drawn is the one below it.  Do you see why?",
     tutorImage: 6,
 }, {
-    message: "Wow!  Full of stars! Try changing size!",
-    code: 'c.fillStyle = "gold";\nvar size = 40;\nvar w = c.canvas.width;\nvar h = c.canvas.height;\nvar maxI = Math.floor(w / size);\nvar maxJ = Math.floor(h / size);\n\nfor (var i = 0; i < maxI; i = i + 1) {\n  for (var j = 0; j < maxJ; j = j + 1) {\n    fillStar(i * size, j * size, size);\n  }\n}\n\nfunction fillStar(x, y, s) {\n  c.beginPath();\n  c.moveTo(x, y + s * 0.4);\n  c.lineTo(x + s, y + s * 0.4);\n  c.lineTo(x + s * 0.15, y + s * 0.9);\n  c.lineTo(x + s / 2, y);\n  c.lineTo(x + s * 0.85, y + s * 0.9);\n  c.lineTo(x, y + s * 0.4);\n  c.fill();\n}\n',
-    lessonSection: "Fun with Stars",
+    message: "Wow!  Full of foxes! Try changing size!",
+    code: 'c.fillStyle = "limegreen";\nvar size = 40;\nvar w = c.canvas.width;\nvar h = c.canvas.height;\nvar maxI = Math.floor(w / size);\nvar maxJ = Math.floor(h / size);\n\nfor (var i = 0; i < maxI; i = i + 1) {\n  for (var j = 0; j < maxJ; j = j + 1) {\n    fillFox(i * size, j * size, size);\n  }\n}\n\nfunction fillFox(x, y, s) {\n  c.beginPath();\n  c.moveTo(x, y+s/7*3);\n  c.lineTo(x+s/7*2, y);\n  c.lineTo(x+s/7*3, y+s/7*2);\n  c.lineTo(x+s/7*4, y+s/7*2);\n  c.lineTo(x+s/7*5, y);\n  c.lineTo(x+s, y+s/7*3);\n  c.lineTo(x+s/2, y+s);\n  c.lineTo(x, y+s/7*3);\n  c.fill();\n}\n',
+    lessonSection: "Fun with Foxes",
     tutorImage: 5,
 }, {
-    message: "How does this program fill the drawing area with stars?  How does it know how many stars will fit?",
+    message: "How does this program fill the drawing area with foxes?  How does it know how many foxes will fit?",
     tutorImage: 4,
 }, {
-    message: "<span class=tutor-code>c.canvas.width</span> is a way of getting the width of the drawing area.  <span class=tutor-code>size</span> is a width of a star.  So, <span class=tutor-code>c.canvas.width / size</span> is how many stars will fit across.",
+    message: "<span class=tutor-code>c.canvas.width</span> is a way of getting the width of the drawing area.  <span class=tutor-code>size</span> is a width of a fox.  So, <span class=tutor-code>c.canvas.width / size</span> is how many foxes will fit across.",
     tutorImage: 1,
 }, {
-    message: "The code does something similar with the height to figure out how many stars fit up-and-down.  The Math.floor() is just a way of rounding, it drops fractions off (so, for example. <span class=tutor-code>Math.floor(7.8)</span> is 7). Now do you see how it works?",
+    message: "The code does something similar with the height to figure out how many foxes fit up-and-down.  The Math.floor() is just a way of rounding, it drops fractions off (so, for example. <span class=tutor-code>Math.floor(7.8)</span> is 7). Now do you see how it works?",
 }, {
-    message: "Wow!  Five stars, randomly placed, changing every time. Can you have it draw fifty stars? A hundred?  How about bigger stars or smaller stars?",
-    code: 'c.fillStyle = "gold";\nvar n = 5;\nvar size = 20;\nvar w = c.canvas.width;\nvar h = c.canvas.height;\n\nfor (var i = 0; i < n; i = i + 1) {\n  var x = (w - size) * Math.random();\n  var y = (h - size) * Math.random();\n  fillStar(x, y, size);\n}\n\nfunction fillStar(x, y, s) {\n  c.beginPath();\n  c.moveTo(x, y + s * 0.4);\n  c.lineTo(x + s, y + s * 0.4);\n  c.lineTo(x + s * 0.15, y + s * 0.9);\n  c.lineTo(x + s / 2, y);\n  c.lineTo(x + s * 0.85, y + s * 0.9);\n  c.lineTo(x, y + s * 0.4);\n  c.fill();\n}\n',
+    message: "Wow!  Five foxes, randomly placed, changing every time. Can you have it draw fifty foxes? A hundred?  How about bigger foxes or smaller foxes?",
+    code: 'c.fillStyle = "limegreen";\nvar n = 5;\nvar size = 20;\nvar w = c.canvas.width;\nvar h = c.canvas.height;\n\nfor (var i = 0; i < n; i = i + 1) {\n  var x = (w - size) * Math.random();\n  var y = (h - size) * Math.random();\n  fillFox(x, y, size);\n}\n\nfunction fillFox(x, y, s) {\n  c.beginPath();\n  c.moveTo(x, y+s/7*3);\n  c.lineTo(x+s/7*2, y);\n  c.lineTo(x+s/7*3, y+s/7*2);\n  c.lineTo(x+s/7*4, y+s/7*2);\n  c.lineTo(x+s/7*5, y);\n  c.lineTo(x+s, y+s/7*3);\n  c.lineTo(x+s/2, y+s);\n  c.lineTo(x, y+s/7*3);\n  c.fill();\n}\n',
     tutorImage: 2,
 }, {
-    message: "So, how does this work?  <span class=tutor-code>n</span> is the number of stars.  <span class=tutor-code>size</span> is the size of the stars. <span class=tutor-code>c.fillStyle</span> is the color of the stars.  But how does it place them randomly?",
+    message: "So, how does this work?  <span class=tutor-code>n</span> is the number of foxes.  <span class=tutor-code>size</span> is the size of the foxes. <span class=tutor-code>c.fillStyle</span> is the color of the foxes.  But how does it place them randomly?",
     tutorImage: 4,
 }, {
     message: "<span class=tutor-code>Math.random()</span> gives us a random number between 0.0 and 1.0, a different one each time we use it.",
     tutorImage: 1,
 }, {
-    message: "See the line <span class=tutor-code>var x = (w - size) * Math.random()</span>?  That figures out how far across to put the star.  Can you figure out what exactly it is doing?",
+    message: "See the line <span class=tutor-code>var x = (w - size) * Math.random()</span>?  That figures out how far across to put the fox.  Can you figure out what exactly it is doing?",
 }, {
-    message: "It takes the width of the drawing area (which is <span class=tutor-code>c.canvas.width</span> and stored in the variable called <span class=tutor-code>w</span>), subtracts off the <span class=tutor-code>size</span> (so the star will fit), and then multiplies by a random number between 0.0 and 1.0.  So, if the random number is 0.5, the star will appear about halfway across.",
+    message: "It takes the width of the drawing area (which is <span class=tutor-code>c.canvas.width</span> and stored in the variable called <span class=tutor-code>w</span>), subtracts off the <span class=tutor-code>size</span> (so the fox will fit), and then multiplies by a random number between 0.0 and 1.0.  So, if the random number is 0.5, the fox will appear about halfway across.",
     tutorImage: 3,
 }, {
-    message: "The code does something similar with <span class=tutor-code>c.canvas.height</span> to determine where to put the star vertically.  Does it make more sense now?",
+    message: "The code does something similar with <span class=tutor-code>c.canvas.height</span> to determine where to put the fox vertically.  Does it make more sense now?",
 }, {
-    message: "I'm tired of seeing stars.  Let's go back to lines.  Here are two separate lines. But see how much code is repeated? You know that isn't good. What can we do?",
+    message: "OK, let's go back to lines.  Here are two separate lines. But see how much code is repeated? You know that isn't good. What can we do?",
     code: "// First line\nc.beginPath();\nc.moveTo(20, 20);\nc.lineTo(200, 20);\nc.stroke();\n// Second line\nc.beginPath();\nc.moveTo(20, 50);\nc.lineTo(200, 50);\nc.stroke();\n",
     lessonSection: "Even More Functions",
     tutorImage: 1,
