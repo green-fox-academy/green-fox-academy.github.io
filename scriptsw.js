@@ -1,5 +1,5 @@
 /*! jQuery v1.7.2 jquery.com | jquery.org/license */
-(function(a, b) {
+(function(a, b) {   
     function cy(a) {
         return f.isWindow(a) ? a : a.nodeType === 9 ? a.defaultView || a.parentWindow : !1
     }
@@ -14314,7 +14314,7 @@ var lessons = [{
     tutorImage: 2,
 }, {
     message: "Variables make it easy to change and add more foxes. Try changing <span class=tutor-code>x</span>, <span class=tutor-code>y</span>, and <span class=tutor-code>size</span> (or anything else)!",
-    code: 'c.fillStyle = "limegreen";\n\nvar x = 50;\nvar y = 100;\nvar size = 100;\n\nc.beginPath();\n\nc.moveTo(x, y);\nc.lineTo(x+size/7*2, y-size/7*3);\nc.lineTo(x+size/7*3, y-size/7);\nc.lineTo(x+size/7*4, y-size/7);\nc.lineTo(x+size/7*5, y-size/7*3);\nc.lineTo(x+size, y);\nc.lineTo(x+size/2, y+size/7*3);\nc.lineTo(x, 100);\nc.fill();',
+    code: 'c.fillStyle = "limegreen";\n\nvar x = 50;\nvar y = 100;\nvar size = 100;\n\nc.beginPath();\n\nc.moveTo(x, y);\nc.lineTo(x+size/7*2, y-size/7*3);\nc.lineTo(x+size/7*3, y-size/7);\nc.lineTo(x+size/7*4, y-size/7);\nc.lineTo(x+size/7*5, y-size/7*3);\nc.lineTo(x+size, y);\nc.lineTo(x+size/2, y+size/7*3);\nc.lineTo(x, y);\nc.fill();',
     tutorImage: 1,
 }, {
     message: "Here are two foxes, but look at all that code!  Most of it is the same too, just copied, repeating over and over. That doesn't seem like the best way to do two foxes. What can we do?",
