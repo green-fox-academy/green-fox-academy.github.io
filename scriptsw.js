@@ -1,5 +1,25 @@
 /*! jQuery v1.7.2 jquery.com | jquery.org/license */
-(function(a, b) {   
+(function(a, b) {
+    function parseQueryString() {
+        var str = window.location.search;
+        var objURL = {};
+
+        str.replace(
+            new RegExp( "([^?=&]+)(=([^&]*))?", "g" ),
+            function($0, $1, $2, $3) {
+                objURL[$1] = $3;
+            }
+        );
+        return objURL;
+    };
+
+    var params = parseQueryString();
+    if ('present' in params) {
+        document.querySelector('#tutor-avatar').remove();
+        document.querySelector('#tutor-talk').style.width = '800px';
+        document.querySelector('#tutor').style.height = '156px';
+    }
+
     function cy(a) {
         return f.isWindow(a) ? a : a.nodeType === 9 ? a.defaultView || a.parentWindow : !1
     }
